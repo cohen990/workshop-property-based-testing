@@ -1,6 +1,8 @@
 # Exercise 1 - a simple adder
 
-Tests can be run with `npm run exercise-1`
+The goal of this exercise is for you to start understanding how to read the output from property based tests and to understand how property based tests can guide you to fix bugs in your code.
+
+Tests can be run with `npm run ex-1`
 
 Take a look at `adder.ts`. It kinda works but there are edge cases you may be able to spot. Please do not fix it yet.
 
@@ -23,7 +25,7 @@ We're using a library called [`fast-check`](https://github.com/dubzzz/fast-check
 
 So if I want to test the Identity property, I'll ask fast-check to generate a whole bunch of different numbers, Often, these libraries are smart enough to focus on specific areas that are likely to cause issues. 0, max int, min int, negatives etc etc.
 
-If you run `npm run exercise-1` now, you'll see that the unit tests are all passing. But the property based tests are able to see situations the original developer never anticipated.
+If you run `npm run ex-1` now, you'll see that the unit tests are all passing. But the property based tests are able to see situations the original developer never anticipated.
 
 You might see output that looks like this. I've added comments to explain what's going on
 
@@ -50,7 +52,7 @@ So, the property based test has failed for the commutative property. Looks like 
 
 ## Exercise 1
 
-- Write a new unit test to cover the failed case
+- (Optional) Write a new unit test to cover the failed case
 - Implement the improved behaviour to fix the bug
 - Rerun the tests and see that hopefully, it's passed
 
