@@ -1,0 +1,29 @@
+{
+  "name": "workshop-property-based-testing",
+  "version": "1.0.0",
+  "description": "workshop in node for property based testing",
+  "main": "src/index.ts",
+  "scripts": {
+    "start": "node src/index.ts",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cohen990/workshop-property-based-testing.git"
+  },
+  "author": "Dan Cohen",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cohen990/workshop-property-based-testing/issues"
+  },
+  "homepage": "https://github.com/cohen990/workshop-property-based-testing#readme",
+  "devDependencies": {
+    "@babel/preset-env": "^7.9.6",
+    "@babel/preset-typescript": "^7.9.0",
+    "@types/node": "^14.0.4",
+    "jest": "^26.0.1",
+    "ts-jest": "^26.0.0",
+    "ts-node": "^8.10.1",
+    "typescript": "^3.9.3"
+  }
+}
