@@ -12,7 +12,7 @@ const MaxSafeNumber = 10000000;
 test("should be commutative", () => {
   fc.assert(
     /* here I'm asking for an `fc.array` of `fc.integer`. 
-    fast-check now knows that `arrayOfNumbers is an array of integers.
+    fast-check now knows that `arrayOfNumbers` is an array of integers.
     By default, fast-check will generate a list between 0 and 10 integers long,
     although this can be changed if desired */
     fc.property(fc.array(fc.integer(MaxSafeNumber)), (arrayOfNumbers) => {

@@ -1,4 +1,7 @@
 function sortRecursively(array: number[]): number[] {
+  /* fix was here: 3 -> 1
+  You could have also left it as 3 but returned a sorted array
+ */
   if (array.length < 1) {
     return array;
   }
