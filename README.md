@@ -3,6 +3,7 @@
 Property based testing is a way to stochastically generate test data.
 
 It can be used for at least two things:
+
 - To really pry into the edge-cases of a system
 - To investigate where a bug exists in a pre-existing complex system
 
@@ -18,6 +19,7 @@ The following are what I've confirmed it to work on. It may well work on lower v
 ## Getting started
 
 `npm install`
-`npm test` - to run all your tests
 
+## Exercises
 
+In the `exercises` directory, you'll find a number of exercises along with their solutions split into several directories. Each has its own README.md and the tests for each can be run with `npm run exercise-{x}`. Please head over to `exercise-1` to get started
