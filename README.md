@@ -16,10 +16,14 @@ The following are what I've confirmed it to work on. It may well work on lower v
 - node v12.13.1
 - npm v6.12.1
 
+You should be comfortable writing code in typescript and comfortable using jest assertions.
+
+It would also help to have some knowledge of how recursion works
+
 ## Getting started
 
 `npm install`
 
 ## Exercises
 
-In the `exercises` directory, you'll find a number of exercises along with their solutions split into several directories. Each has its own README.md and the tests for each can be run with `npm run exercise-{x}`. Please head over to `exercise-1` to get started
+In the `exercises` directory, you'll find a number of exercises along with their solutions split into several directories. Each has its own README.md and the tests for each can be run with `npm run ex-{x}`. Please head over to `exercise-1` to get started
