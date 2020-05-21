@@ -5,7 +5,8 @@
   "main": "src/index.ts",
   "scripts": {
     "start": "node src/index.ts",
-    "test": "jest"
+    "exercise-1": "jest exercises/exercise-1/",
+    "exercise-1-solution": "jest exercises/exercise-1-solution/"
   },
   "repository": {
     "type": "git",
