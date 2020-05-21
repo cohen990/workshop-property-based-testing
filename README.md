@@ -15,7 +15,9 @@ The following are what I've confirmed it to work on. It may well work on lower v
 - node v12.13.1
 - npm v6.12.1
 
-## Instructions
+## Getting started
 
 `npm install`
 `npm test` - to run all your tests
+
+
