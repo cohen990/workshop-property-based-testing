@@ -12,7 +12,7 @@ const MaxSafeNumber = 10000000;
 test("should be commutative", () => {
   fc.assert(
     /* here I'm asking for an `fc.array` of `fc.integer`. 
-    fast-check now knows that `arrayOfNumbers` is an array of integers.
+    fast-check now knows that `arrayOfNumbers is an array of integers.
     By default, fast-check will generate a list between 0 and 10 integers long,
     although this can be changed if desired */
     fc.property(fc.array(fc.integer(MaxSafeNumber)), (arrayOfNumbers) => {
@@ -20,7 +20,7 @@ test("should be commutative", () => {
       var reversed = arrayOfNumbers.reverse();
       var commutated = add(reversed);
 
-      expect(added).toEqual(commutated);
+      expect(added === commutated).toEqual(true);
     })
   );
 });
@@ -66,7 +66,7 @@ test("should be distributive", () => {
         var first = a * add([b, c]);
         var second = add([a * b, a * c]);
 
-        expect(first).toEqual(second);
+        expect(first === second).toEqual(true);
       }
     )
   );

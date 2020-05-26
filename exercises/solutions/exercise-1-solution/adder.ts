@@ -6,9 +6,5 @@ export function add(numbers: number[]) {
     result += numbers[i];
   }
 
-  if (Number.isSafeInteger(result)) {
-    return result;
-  }
-
-  throw "too big";
+  return result;
 }
