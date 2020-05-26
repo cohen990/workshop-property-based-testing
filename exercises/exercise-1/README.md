@@ -15,7 +15,7 @@ Properties of addition can be seen in more detail [here](https://www.aaamath.com
 - Commutative: a + b = b + a
 - Associative: (a + b) + c = a + (b + c)
 - Identity: a + 0 = a
-- Distributive: a _ (b + c) = (a _ b) + (a \* c)
+- Distributive: a \* (b + c) = (a \* b) + (a \* c)
 
 I've codified these properties as property based tests. Take a moment to read through to code and understand what it's doing.
 
