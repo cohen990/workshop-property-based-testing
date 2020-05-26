@@ -20,7 +20,7 @@ test("should be commutative", () => {
       var reversed = arrayOfNumbers.reverse();
       var commutated = add(reversed);
 
-      expect(added).toEqual(commutated);
+      expect(added === commutated).toEqual(true);
     })
   );
 });
@@ -66,7 +66,7 @@ test("should be distributive", () => {
         var first = a * add([b, c]);
         var second = add([a * b, a * c]);
 
-        expect(first).toEqual(second);
+        expect(first === second).toEqual(true);
       }
     )
   );
